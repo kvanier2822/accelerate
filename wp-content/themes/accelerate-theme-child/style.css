@@ -12,10 +12,19 @@
 
 @import url("../accelerate-theme/style.css");
 
+.recent-posts {
+	overflow: hidden;
+}
+
 .blog-post {
-	width: 50%;
+	width: 44.75%;
 	float: left;
-	margin-bottom: 2em;
+	padding-right: 50px;
+}
+
+.blog-post h2 {
+	font: 700 24px 'Montserrat'
+	margin: 36px 0;
 }
 
 .blog-post h3 {
@@ -27,6 +36,13 @@
 	color: #a6a6a6;
 	text-transform: uppercase;
 	margin: 2em 0 .5em;
+}
+
+.blog-post .read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
 }
 
 .button {
@@ -42,9 +58,32 @@
 	background: none repeat scroll 0 0 #45ac9d;
 }
 
-.read-more-link {
-	font-family: 'Montserrat';
-	font-weight: 700;
-	color: #45ac9d;
-	text-transform: uppercase;
+#masthead nav ul li {
+	float: left;
+	margin: 0 10px;
 }
+
+
+
+/* Case Studies */
+
+article.case-study {
+	margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+	float: left;
+	width: 300px;
+}
+
+div.case-study-images {
+	float: left;
+	width: 606px;
+}
+
+div.case-study-images img {
+	display: block;
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+}
+
